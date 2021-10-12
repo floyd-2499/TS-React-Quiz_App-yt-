@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url(../Images/bg.png);
+  background-size: cover;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+}
+.App h1 {
+    font-size: 46px;
+    font-weight: 500;
+    text-align: center;
+}
+p {
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    width: 600px;
+}
+p.number {
+    color: black;
+    font-size: 18px;
+}
+
+.score {
+    color: rgb(73, 2, 2);
+    font-size: 2rem;
+    margin: 0;
+}
+.score strong {
+    font-weight: 300;
+    color: brown;
+    font-size: 36px;
+}
+
+button {
+    width: 300px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 28px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out ;
+    margin-bottom: 5px;
+    user-select: none;
+}
+button.next,
+button.start{
+    background-color: coral;
+    color: #fff;
+}
+
+button:hover{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25), inset 3px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card button {
+    padding: 5px 0px;
+}
+
